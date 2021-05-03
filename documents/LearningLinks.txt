@@ -1,0 +1,14 @@
+	
+	• COURSERA
+		○ CSS, JS, HTML By the University of Michigan
+			§ https://www.coursera.org/learn/html-css-javascript-for-web-developers
+				□ 6 months to complete 3 hours per week. Not what we want….can I do this accelerated?
+		○ React By the By the University of Hong Kong
+			§ https://www.coursera.org/learn/html-css-javascript-for-web-developers
+				□ 3 months to complete 10 hours per week…..also not what we want….can this be done accelerated as well?
+		○  Front End Development By the University of Hong Kong
+			§ https://www.coursera.org/learn/front-end-react
+				□ 36 hours to complete. Do able but what about quality?
+		○ Create a Website in a Weekend! By State University of New York 
+			§ https://www.coursera.org/learn/how-to-create-a-website
+14 hours to complete
