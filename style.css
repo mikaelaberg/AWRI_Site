@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #222;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.RightDashbaord {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 200px;
+    min-height: 500px;
+}
+
+.LeftColumn  {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 5px;
+    flex-grow: 1;
+    min-height: 250px;
+    min-width: 250px;
+}
+
+.small.item {
+    min-width: 305px;
+}
+
+#br {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    min-height: 250px;
+}
+
+#br > section {
+    flex-grow: 1;
+}
