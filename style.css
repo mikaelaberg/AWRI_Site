@@ -1,50 +1,42 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;}
+
+header,section,footer,aside,nav,article{
+    display: block;}
+
+body{
+    color: #666666;
+    background-color: #f9f8f6;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8em;
+    margin: 0px;
 }
 
-html,
-body {
-    background-color: rgb(242, 251, 255);
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+.wrapper{
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
 }
 
-.RightDashbaord {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-width: 200px;
-    min-height: 500px;
-}
+nav{
+    clear: both;
+    color: #ffffff;
+    background-color: #3f4fac;
+    height: 50px;}
 
-.LeftColumn  {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    flex-wrap: wrap;
-}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;}
 
-.item {
-    margin: 5px;
-    flex-grow: 1;
-    min-height: 250px;
-    min-width: 250px;
-}
+nav li{
+    display: inline;
+    margin-right: 40px;}
 
-.small.item {
-    min-width: 305px;
-}
+nav li a{
+    color:#ffffff;}
 
-#br {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    min-height: 250px;
-}
+nav li a:hover, nav li a.current{
+    color: #000000;}
 
-#br > section {
-    flex-grow: 1;
-}

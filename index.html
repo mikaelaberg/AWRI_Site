@@ -9,20 +9,34 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>AWRI Muskegon Lake Buoy Citizen Scientist Main Page</h1>
-    <p>Hello World</p>
-    <div class="RightDashbaord">
-      <div id="chart1" class="item"></div>
+    <div class="wrapper">
+    <header>
+      <h1>AWRI Muskegon Lake Buoy Citizen Scientist Main Page</h1>
+        <nav>
+          <ul>
+            <li><a href="https://www.gvsu.edu/wri/buoy/data-index.htm"  target="_blank">
+            Data Grapher</a></li>
+            <li><a href="https://www.gvsu.edu/wri/buoy/data-current.htm"  target="_blank">
+            Current Conditions</a></li>
+            <li><a href="https://www.gvsu.edu/wri/buoy/data-api.htm"  target="_blank">
+            API</a></li>
+            <li><a href="https://www.gvsu.edu/wri/buoy/data-disclaimer-11.htm"  target="_blank">
+            Disclaimer</a></li>
+            <li><a href="https://www.glerl.noaa.gov/res/recon/station-mkg.html"  target="_blank">
+            NOAA Muskegon Buoy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="Graphs"> <!--Tableau Public Interface-->
+      <article>
+        <figure>
+          <div class='tableauPlaceholder' id='viz1626269672558' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ML&#47;MLOBuoyData&#47;YearlyAverageChlorophyllHighlightedTables2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MLOBuoyData&#47;YearlyAverageChlorophyllHighlightedTables2' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ML&#47;MLOBuoyData&#47;YearlyAverageChlorophyllHighlightedTables2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1626269672558');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </figure>
 
-    </div>
-    <div id="br"></div>
+      </article>
 
-    <div class="LeftColumn">
-      <div id="chart2" class="item"></div>
-      <div id="chart3" class="item"></div>
-    </div>
-
-
-    <script type="text/javascript" src="scripts.js"></script>
+    <aside></aside> <!--Left Pannel-->
+    <footer></footer>
+  </div><!--wrapper-->
   </body>
 </html>
