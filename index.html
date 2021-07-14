@@ -3,15 +3,70 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AWRI Citizen Scientis Main Page
-    </title>
-
-    <link href="style.css" rel="stylesheet" />
+    <title>AWRI Citizen Scientis Historical Data Dashboard </title>
+    <style type="text/css">
+      * {
+        box-sizing: border-box;}
+      header,section,footer,aside,nav,article{
+        display: block;}
+      body{
+        color: #666666;
+        background-color: #f9f8f6;
+        background-position: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 1.8em;
+        margin: 0px;}
+      .wrapper{
+        width: 940px;
+        margin: 20px auto 20px auto;
+        border: 2px solid #000000;
+        background-color: #ffffff;}
+      h1{
+        text-align: center;}
+      nav{
+        text-align: center;
+        clear: both;
+        color: #ffffff;
+        background-color: #3f4fac;
+        height: 50px;}
+      nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 30px;}
+      nav li{
+        display: inline;
+        margin-right: 40px;}
+      nav li a{
+        color:#ffffff;}
+      nav li a:hover, nav li a.current{
+        color: #000000;}
+      section.Graphs{
+        float: right;
+        width: 659px;
+        border-left: 1px solid #eeeeee;}
+      aside{
+        width: 230px;
+        float: left;
+        padding: 0px 0px 0px 20px;}
+      aside section p{
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #eeeeee;}
+      p {
+        color: #000000;
+        background-color: #efefef;}
+      h1,h2{
+        font-weight: normal;}  
+      aside h2{
+        padding: 30px 0 px 10px 0px;}
+      footer{
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;}
+    </style>
   </head>
   <body>
     <div class="wrapper">
     <header>
-      <h1>AWRI Muskegon Lake Buoy Citizen Scientist Main Page</h1>
+      <h1>AWRI Citizen Scientis Historical Data Dashboard</h1>
         <nav>
           <ul>
             <li><a href="https://www.gvsu.edu/wri/buoy/data-index.htm"  target="_blank">
@@ -29,13 +84,24 @@
     </header>
     <section class="Graphs"> <!--Tableau Public Interface-->
       <article>
+        <hgroup>
+          <h2>Tableau Public MLO Historical Data Workbook</h2>
+        </hgroup>
         <figure>
           <div class='tableauPlaceholder' id='viz1626269672558' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ML&#47;MLOBuoyData&#47;YearlyAverageChlorophyllHighlightedTables2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MLOBuoyData&#47;YearlyAverageChlorophyllHighlightedTables2' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ML&#47;MLOBuoyData&#47;YearlyAverageChlorophyllHighlightedTables2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1626269672558');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
         </figure>
-
       </article>
-
-    <aside></aside> <!--Left Pannel-->
+    </section>
+    <aside>
+      <section class="Description">
+        <h2>Descriptions</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Mauris nunc congue nisi vitae suscipit tellus. Risus commodo 
+          viverra maecenas accumsan lacus vel facilisis. Ultricies integer quis auctor elit sed vulputate. Sem fringilla ut morbi tincidunt. 
+        </p>
+      </section>
+    </aside> <!--Left Pannel-->
     <footer></footer>
   </div><!--wrapper-->
   </body>
